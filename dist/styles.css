@@ -440,6 +440,10 @@ video {
   display: none;
 }
 
+body {
+  font-family: 'Inter', sans-serif;;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
