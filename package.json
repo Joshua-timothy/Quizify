@@ -1,0 +1,25 @@
+{
+  "name": "quizify",
+  "version": "1.0.0",
+  "description": "Your playground for coding quizzes!",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joshua-timothy/Quizify.git"
+  },
+  "keywords": [
+    "Quiz"
+  ],
+  "author": "Joshua Timothy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joshua-timothy/Quizify/issues"
+  },
+  "homepage": "https://github.com/Joshua-timothy/Quizify#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}

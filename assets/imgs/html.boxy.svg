@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="61.895 206.681 195.568 194.864" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient id="gradient-1" bx:pinned="true">
+      <stop offset="0.97" style="stop-color: rgb(18, 67, 56);"/>
+    </linearGradient>
+    <linearGradient id="gradient-2" bx:pinned="true">
+      <stop offset="0.97" style="stop-color: rgb(18, 67, 56);"/>
+    </linearGradient>
+    <linearGradient id="gradient-3" bx:pinned="true">
+      <stop offset="0.52" style="stop-color: rgb(12, 118, 218);"/>
+    </linearGradient>
+    <linearGradient id="color-0" bx:pinned="true">
+      <stop style="stop-color: rgb(237, 77, 0);" offset="0.29"/>
+      <stop style="stop-color: rgb(255, 172, 62);" offset="1"/>
+    </linearGradient>
+    <linearGradient id="color-0-0" gradientUnits="userSpaceOnUse" x1="202.722" y1="114.613" x2="202.722" y2="286.533" gradientTransform="matrix(1, 0, 0, 1, -45.845268, 99.570175)" xlink:href="#color-0"/>
+  </defs>
+  <g style="transform-origin: 156.876px 300.143px;" transform="matrix(0.836392, -0.592514, 0.592514, 0.836392, 2.149003, 2.148993)">
+    <ellipse style="paint-order: stroke; fill-rule: nonzero; stroke: rgb(0, 0, 0); stroke-miterlimit: 3.42; stroke-width: 0px; fill: url('#color-0-0'); transform-box: fill-box; transform-origin: 50% 50%;" cx="156.876" cy="300.143" rx="85.96" ry="85.96" transform="matrix(0, -1, 1, 0, 0.000008, 0)"/>
+  </g>
+  <path d="M 219.33 259.994 L 209.78 366.974 L 166.854 378.873 L 124.046 366.99 L 114.507 259.994 L 219.33 259.994 Z" style="fill: rgba(255, 145, 0, 0.698); transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0.926489, -0.376322, 0.376322, 0.926489, -0.000006, 0.000001)"/>
+  <g transform="matrix(1.075037, 0, 0, 1.075037, -9.416819, -26.17627)" style="">
+    <path d="M 162.416 367.811 L 204.368 357.168 L 214.238 255.991 L 162.416 255.991 L 162.416 367.811 Z" style="fill: rgba(255, 98, 26, 0.94); transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0.926489, -0.376322, 0.376322, 0.926489, 0.000001, 0.000002)"/>
+    <g>
+      <path d="M 158.443 333.042 L 146.189 333.042 L 147.899 352.208 L 172.904 359.15 L 172.96 359.134 L 172.96 346.434 L 172.907 346.448 L 159.312 342.777 L 158.443 333.042 Z" fill="#EBEBEB" style="transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0.926489, -0.376322, 0.376322, 0.926489, 0.000009, 0)"/>
+    </g>
+    <path d="M 167.448 317.251 L 182.479 317.251 L 181.062 333.083 L 167.448 336.757 L 167.448 349.457 L 192.472 342.521 L 192.656 340.459 L 195.524 308.323 L 195.822 305.045 L 167.448 305.045 L 167.448 317.251 Z" fill="#FFFFFF" style="transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0.926489, -0.376322, 0.376322, 0.926489, 0, -0.000003)"/>
+    <path d="M 152.009 295.1 L 152.009 295.13 L 181.495 295.13 L 181.739 292.386 L 182.296 286.198 L 182.588 282.923 L 152.009 282.923 L 152.009 295.1 Z" fill="#FFFFFF" style="stroke-linecap: round; stroke-linejoin: round; stroke-dashoffset: -50px; transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0.926489, -0.376322, 0.376322, 0.926489, -0.000005, 0.000004)"/>
+  </g>
+  <path d="M 142.893 302.482 L 161.456 302.482 L 161.456 289.359 L 128.552 289.359 L 128.865 292.88 L 132.091 329.043 L 161.456 329.043 L 161.456 315.92 L 144.092 315.92 L 142.893 302.482 Z" fill="#EBEBEB" style="transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0.926489, -0.376322, 0.376322, 0.926489, -0.000007, 0)"/>
+</svg>
