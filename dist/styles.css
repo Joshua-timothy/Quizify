@@ -543,3 +543,51 @@ body {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.flex {
+  display: flex;
+}
+
+.h-\[80vh\] {
+  height: 80vh;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.bg-DPurple {
+  --tw-bg-opacity: 1;
+  background-color: rgb(53 11 149 / var(--tw-bg-opacity));
+}
+
+.con {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 640px) {
+  .con {
+    max-width: 42rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .con {
+    max-width: 56rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .con {
+    max-width: 80rem;
+  }
+}

@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Joshua Timothy" />
     <title>Quizify - Your playground for coding quizzes!</title>
-    <link rel="stylesheet" href="./build/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,14 +16,14 @@
   <body>
     <header>
       <nav>
-        <img src="./assets/imgs/Quizify.svg" alt="Quizify logo" />
+        <img class="w-40" src="./assets/imgs/Quizify.svg" alt="Quizify logo" />
         <a href="">Quiz</a>
       </nav>
     </header>
 
     <main>
-      <section>
-        <div>
+      <section class="bg-DPurple">
+        <div class="h-[80vh] flex justify-between items-center con">
           <div>
             <h1>Daily Quiz, Daily IQ Test - Play Today!</h1>
             <p>
@@ -32,11 +31,16 @@
               some surprising surprises everyday.
             </p>
             <a href=""
-              ><img src="./assets/icons/play-circle.svg" alt="Play icon" />PLAY
-              TODAY</a
+              ><img
+                class="w-40"
+                src="./assets/icons/play-circle.svg"
+                alt="Play icon"
+              />PLAY TODAY</a
             >
           </div>
-          <div></div>
+          <div>
+            <img class="w-40" src="./assets/imgs/code-for-hero.svg" alt="" />
+          </div>
         </div>
       </section>
 
@@ -47,24 +51,20 @@
             <div>
               <a href="">
                 <div>
-                  <img src="./assets/imgs/html.boxy.svg" alt="HTML logo" />
+                  <img
+                    class="w-40"
+                    src="./assets/imgs/html.boxy.svg"
+                    alt="HTML logo"
+                  />
                   <h3>HTML</h3>
                 </div>
                 <p>
                   Start Now
-                  <img src="./assets/icons/arrow-right.svg" alt="arrow-right" />
-                </p>
-              </a>
-            </div>
-            <div>
-              <a href="">
-                <div>
-                  <img src="./assets/imgs/css.boxy.svg" alt="CSS logo" />
-                  <h3>CSS</h3>
-                </div>
-                <p>
-                  Start Now
-                  <img src="./assets/icons/arrow-right.svg" alt="arrow-right" />
+                  <img
+                    class="w-40"
+                    src="./assets/icons/arrow-right.svg"
+                    alt="arrow-right"
+                  />
                 </p>
               </a>
             </div>
@@ -72,6 +72,27 @@
               <a href="">
                 <div>
                   <img
+                    class="w-40"
+                    src="./assets/imgs/css.boxy.svg"
+                    alt="CSS logo"
+                  />
+                  <h3>CSS</h3>
+                </div>
+                <p>
+                  Start Now
+                  <img
+                    class="w-40"
+                    src="./assets/icons/arrow-right.svg"
+                    alt="arrow-right"
+                  />
+                </p>
+              </a>
+            </div>
+            <div>
+              <a href="">
+                <div>
+                  <img
+                    class="w-40"
                     src="./assets/imgs/Javascript.boxy.svg"
                     alt="JavaScript logo"
                   />
@@ -79,7 +100,11 @@
                 </div>
                 <p>
                   Start Now
-                  <img src="./assets/icons/arrow-right.svg" alt="arrow-right" />
+                  <img
+                    class="w-40"
+                    src="./assets/icons/arrow-right.svg"
+                    alt="arrow-right"
+                  />
                 </p>
               </a>
             </div>
