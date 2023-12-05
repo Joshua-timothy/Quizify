@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,42 +8,57 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700;1,800&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="./assets/icons/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="./dist/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="hero-radial">
+      <nav class="con flex items-center justify-between py-8">
         <img class="w-40" src="./assets/imgs/Quizify.svg" alt="Quizify logo" />
-        <a href="">Quiz</a>
+        <a
+          class="my-auto flex items-center gap-x-1 rounded-3xl bg-LPurple px-8 py-2 text-CWhite"
+          href=""
+          >Quiz
+          <img class="block w-3" src="./assets/icons/arrow-down.svg" alt=""
+        /></a>
       </nav>
-    </header>
-
-    <main>
-      <section class="bg-DPurple">
-        <div class="h-[80vh] flex justify-between items-center con">
-          <div>
-            <h1>Daily Quiz, Daily IQ Test - Play Today!</h1>
-            <p>
+      <section>
+        <div class="con flex h-[80vh] items-center justify-between">
+          <div class="text-CWhite">
+            <h1 class="font-NotoSans w-3/4 text-6xl font-black">
+              Daily Quiz, Daily IQ Test - Play Today!
+            </h1>
+            <p class="my-6 w-3/6 text-base">
               Quizify is the daily Trivia and quiz playing platform. it brings
               some surprising surprises everyday.
             </p>
-            <a href=""
-              ><img
-                class="w-40"
-                src="./assets/icons/play-circle.svg"
-                alt="Play icon"
-              />PLAY TODAY</a
+            <p
+              class="inline-block rounded-lg bg-LGold px-3 py-2 font-medium text-black"
             >
+              <a class="flex items-center gap-x-2" href=""
+                ><img
+                  class="w-6"
+                  src="./assets/icons/play-circle.svg"
+                  alt="Play icon"
+                />PLAY TODAY
+              </a>
+            </p>
           </div>
           <div>
-            <img class="w-40" src="./assets/imgs/code-for-hero.svg" alt="" />
+            <img
+              class="w-[30rem] -rotate-[20deg]"
+              src="./assets/imgs/hero-trophy.svg"
+              alt=""
+            />
           </div>
         </div>
       </section>
+    </header>
 
+    <main>
       <section>
         <div>
           <h2>Choose the option</h2>

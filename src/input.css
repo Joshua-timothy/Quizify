@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,10 +8,28 @@
   body {
     @apply font-Inter;
   }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+    background-color: #1b14298a;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #ffffff; /* color of the thumb */
+    border-radius: 10px; /* rounded corners */
+  }
 }
 
 @layer utilities {
   .con {
     @apply mx-auto sm:max-w-2xl lg:max-w-4xl xl:max-w-7xl;
+  }
+
+  .hero-radial {
+    background: radial-gradient(
+      circle at 86% 78%,
+      rgba(121, 81, 205, 1) 5%,
+      rgba(53, 11, 149, 1) 68%
+    );
   }
 }
