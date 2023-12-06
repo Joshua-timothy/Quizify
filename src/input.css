@@ -26,10 +26,6 @@
   }
 
   .hero-radial {
-    background: radial-gradient(
-      circle at 86% 78%,
-      rgba(121, 81, 205, 1) 5%,
-      rgba(53, 11, 149, 1) 68%
-    );
+    background: #fffcfb;
   }
 }

@@ -9,9 +9,8 @@ module.exports = {
         NotoSans: "'Noto Sans KR', sans-serif",
       },
       colors: {
-        LPurple: "#9A6CF0",
-        DPurple: "#350B95",
-        LGold: "#FFD501",
+        LCyan: "#2FB2AC",
+        DPurple: "#201C3C",
         CWhite: "#FDFFFA",
       },
     },

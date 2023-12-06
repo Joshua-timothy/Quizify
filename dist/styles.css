@@ -639,14 +639,9 @@ body{
   border-radius: 0.5rem;
 }
 
-.bg-LGold{
+.bg-LCyan{
   --tw-bg-opacity: 1;
-  background-color: rgb(255 213 1 / var(--tw-bg-opacity));
-}
-
-.bg-LPurple{
-  --tw-bg-opacity: 1;
-  background-color: rgb(154 108 240 / var(--tw-bg-opacity));
+  background-color: rgb(47 178 172 / var(--tw-bg-opacity));
 }
 
 .px-3{
@@ -696,9 +691,9 @@ body{
   color: rgb(253 255 250 / var(--tw-text-opacity));
 }
 
-.text-black{
+.text-DPurple{
   --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
+  color: rgb(32 28 60 / var(--tw-text-opacity));
 }
 
 .con{
@@ -725,9 +720,5 @@ body{
 }
 
 .hero-radial {
-  background: radial-gradient(
-      circle at 86% 78%,
-      rgba(121, 81, 205, 1) 5%,
-      rgba(53, 11, 149, 1) 68%
-    );
+  background: #fffcfb;
 }
