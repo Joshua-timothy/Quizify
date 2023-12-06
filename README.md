@@ -1,3 +1,0 @@
-# Quizify
-
-Still on construction 🚧 
