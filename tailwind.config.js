@@ -11,7 +11,7 @@ module.exports = {
       colors: {
         LCyan: "#2FB2AC",
         DPurple: "#201C3C",
-        CWhite: "#FDFFFA",
+        CWhite: "#FFFCFB",
       },
     },
   },

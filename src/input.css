@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply font-Inter;
+    @apply bg-CWhite font-Inter;
   }
 
   ::-webkit-scrollbar {
@@ -25,7 +25,16 @@
     @apply mx-auto sm:max-w-2xl lg:max-w-4xl xl:max-w-7xl;
   }
 
-  .hero-radial {
-    background: #fffcfb;
+  /* .radial-gradient {
+    background: radial-gradient(
+      ellipse at 50% 100%,
+      rgba(47, 178, 172, 0.07) 19%,
+      rgba(47, 178, 172, 0.06) 33%,
+      rgba(255, 252, 251, 1) 46%
+    );
+  } */
+
+  .magicpattern {
+    background-image: url("../assets/imgs/magicpattern.png");
   }
 }
