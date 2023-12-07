@@ -824,16 +824,6 @@ body{
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-\[\#2FB2AC\]{
-  --tw-shadow-color: #2FB2AC;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-\[\#2fb2ab62\]{
-  --tw-shadow-color: #2fb2ab62;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
 .shadow-\[\#2fb2ab52\]{
   --tw-shadow-color: #2fb2ab52;
   --tw-shadow: var(--tw-shadow-colored);
@@ -871,15 +861,6 @@ body{
     max-width: 80rem;
   }
 }
-
-/* .radial-gradient {
-    background: radial-gradient(
-      ellipse at 50% 100%,
-      rgba(47, 178, 172, 0.07) 19%,
-      rgba(47, 178, 172, 0.06) 33%,
-      rgba(255, 252, 251, 1) 46%
-    );
-  } */
 
 .magicpattern {
   background-image: url("../assets/imgs/magicpattern.png");
