@@ -607,6 +607,10 @@ body{
   height: 100%;
 }
 
+.h-\[80vh\]{
+  height: 80vh;
+}
+
 .min-h-screen{
   min-height: 100vh;
 }
@@ -637,6 +641,38 @@ body{
 
 .w-full{
   width: 100%;
+}
+
+.w-1\/2{
+  width: 50%;
+}
+
+.w-24{
+  width: 6rem;
+}
+
+.w-3\/4{
+  width: 75%;
+}
+
+.w-3\/6{
+  width: 50%;
+}
+
+.w-40{
+  width: 10rem;
+}
+
+.w-\[30rem\]{
+  width: 30rem;
+}
+
+.w-\[40\%\]{
+  width: 40%;
+}
+
+.w-\[60\%\]{
+  width: 60%;
 }
 
 .-rotate-\[20deg\]{
@@ -802,6 +838,11 @@ body{
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .font-black{
