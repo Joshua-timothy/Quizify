@@ -700,14 +700,6 @@ body{
   border-width: 1px;
 }
 
-.border-\[\#2fb2ab81\]{
-  border-color: #2fb2ab81;
-}
-
-.border-\[\#2fb2ab31\]{
-  border-color: #2fb2ab31;
-}
-
 .border-\[\#2fb2ab5b\]{
   border-color: #2fb2ab5b;
 }
@@ -720,10 +712,6 @@ body{
 .bg-LCyan{
   --tw-bg-opacity: 1;
   background-color: rgb(47 178 172 / var(--tw-bg-opacity));
-}
-
-.p-5{
-  padding: 1.25rem;
 }
 
 .p-3{
@@ -787,11 +775,6 @@ body{
   line-height: 2rem;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-4xl{
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -837,12 +820,6 @@ body{
   text-decoration-line: underline;
 }
 
-.shadow-2xl{
-  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .shadow-xl{
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
@@ -886,6 +863,83 @@ body{
   background-image: url("../assets/imgs/magicpattern.png");
   @media (width <= 640px) {
     background-image: none;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  80% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animate-slide-down {
+  animation: slideDown 1.5s forwards;
+}
+
+@keyframes slideRight {
+  0% {
+    transform: translateX(-11rem);
+    opacity: 0;
+  }
+
+  80% {
+    transform: translateX(2rem);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-right {
+  animation: slideRight 1.5s ease-in-out forwards;
+  backface-visibility: hidden;
+  &:nth-child(2) {
+    animation-duration: 1.8s;
+  }
+  &:nth-child(3) {
+    animation-duration: 2s;
+  }
+}
+
+.animate-blur {
+  animation: blur 2s ease-in-out forwards;
+  backface-visibility: hidden;
+}
+
+@keyframes blur {
+  0% {
+    filter: blur(0.2rem);
+  }
+
+  100% {
+    filter: blur(0);
+  }
+}
+
+.animate-blur-out {
+  animation: blurOut 2s ease-in-out forwards;
+  backface-visibility: hidden;
+}
+
+@keyframes blurOut {
+  0% {
+    filter: blur(0.2rem);
+    transform: translateY(3rem);
+  }
+
+  100% {
+    filter: blur(0);
+    transform: translateY(0);
   }
 }
 
@@ -997,19 +1051,6 @@ body{
   .lg\:rounded-e-xl{
     border-start-end-radius: 0.75rem;
     border-end-end-radius: 0.75rem;
-  }
-
-  .lg\:border-\[\#2fb2ab81\]{
-    border-color: #2fb2ab81;
-  }
-
-  .lg\:border-\[\#2fb2ab5b\]{
-    border-color: #2fb2ab5b;
-  }
-
-  .lg\:px-0{
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .lg\:py-0{
