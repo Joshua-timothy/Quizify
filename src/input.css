@@ -27,5 +27,9 @@
 
   .magicpattern {
     background-image: url("../assets/imgs/magicpattern.png");
+
+    @media (width <= 640px) {
+      background-image: none;
+    }
   }
 }
