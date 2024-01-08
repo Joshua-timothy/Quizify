@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Tektur:wght@700&display=swap");
+
 /*
 ! tailwindcss v3.3.6 | MIT License | https://tailwindcss.com
 */
@@ -762,8 +764,8 @@ body{
   text-align: center;
 }
 
-.font-NotoSans{
-  font-family: 'Noto Sans KR', sans-serif;
+.font-Tektur{
+  font-family: 'Tektur', sans-serif;
 }
 
 .font-mono{
@@ -795,6 +797,10 @@ body{
 
 .font-semibold{
   font-weight: 600;
+}
+
+.font-bold{
+  font-weight: 700;
 }
 
 .tracking-widest{

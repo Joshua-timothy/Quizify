@@ -7,6 +7,7 @@ module.exports = {
         Inter: "'Inter', sans-serif;",
         PTsans: "'PT Sans', sans-serif",
         NotoSans: "'Noto Sans KR', sans-serif",
+        Tektur: "'Tektur', sans-serif",
       },
       colors: {
         LCyan: "#2FB2AC",
